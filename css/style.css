@@ -1,0 +1,675 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Markazi Text', serif;
+}
+
+.clr {
+    clear: both;
+}
+
+.container {
+    width: 1200px;
+    margin: auto;
+}
+
+.header .position {
+    position: fixed;
+    top: auto;
+    right: auto;
+    height:80px;
+    width: auto;
+    margin-bottom: 100px;
+    background-color: white;
+}
+.header .position .logo {
+    float: right;
+    width:20%;
+    padding-left: 790px;
+}
+.header .position .logo img {
+    height:80px;
+    width: 300px;
+}
+.header.position .nav {
+    float: left;
+    width: 80%;
+    padding-right: 100px;
+}
+.header .position .nav li :hover {
+    color: sandybrown;
+    border-style: groove;
+    border-color: sandybrown;
+}
+.header .position .nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 15px;
+    margin-top: 30px;
+    font-size:18px;
+}
+.header .position .nav ul li a {
+    text-decoration: none;
+    color: rgb(88, 39, 3);
+}
+.header .head {
+    background-image: url(../img/rrrr.jpg);
+    height: 100vh;
+    background-position: center center;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+.header .head {
+    text-align: center;
+    padding-top: 150px;
+    font-size: 40px;
+    color: rgb(88, 39, 3);
+}
+.header .head P {
+    padding-top: 20PX;
+    padding-bottom: 20px;
+    font-size: 40px;
+}
+.header .head h1 {
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    font-size: 70px;
+}
+.header .head ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 20px;
+    padding-top: 160px;
+}
+.header .head ul li a {
+    color: burlywood;
+}
+.header .head li :hover {
+    color: brown;
+    font-size: 50px;
+}
+
+.who {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: rgb(241, 237, 233);
+}
+.who .who-head {
+    font-size: 50px;
+    text-align: center;
+    padding-bottom: 50px;
+    color: saddlebrown;
+}
+.who .who-content {
+    float: right;
+    width:40%;
+    text-align: right;
+    font-size: 30px;
+    color: saddlebrown
+}
+.who .who-content p {
+    padding-top: 20px;
+}
+.who .who-img {
+    float: right;
+    width: 40%;
+}
+.who .who-img img {
+    width:100%;
+}
+
+.sections {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.sections .sections-head {
+    font-size: 50px;
+    text-align: center;
+    padding-bottom: 50px;
+    color: saddlebrown;
+}
+.sections .section-1 {
+   float: right;
+   width: 35%;
+   margin-left: 100px;
+   margin-right: 50px;
+   margin-bottom: 30px;
+   border-style: ridge;
+   height: 230px;
+   width: 500px;
+   background-color: burlywood;
+}
+.sections .section-1 .section-1-head {
+    font-size: 25px;
+    text-align: right;
+    padding-bottom: 20px;
+    color: saddlebrown;
+}
+.sections .section-1 .section-1-content {
+    text-align: right;
+    font-size: 25px;
+    color: saddlebrown
+}
+.sections .section-1 .section-1-content p {
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+.sections .section-1 .section-1-content .button1 {
+    width: 300px;
+    text-align: center;
+}
+.sections .section-1 .section-1-content .button1  a {
+    text-decoration: none;
+    color: white ;
+    border-style: solid;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgb(165, 91, 37);
+}
+.sections .section-1 .section-1-content .button1 :hover{
+    border-style: solid ;
+    border-color: rgb(82, 36, 3);
+    color: rgb(82, 36 ,3);
+    background-color: white;
+}
+.sections .section-2 {
+    float: right;
+    width: 35%;
+    margin-bottom: 30px;
+    border-style: ridge;
+    height: 230px;
+    width: 500px;
+    background-color: burlywood;
+}
+.sections .section-2 .section-2-head {
+    font-size: 25px;
+    text-align: right;
+    padding-bottom: 20px;
+    color: saddlebrown;
+}
+.sections .section-2 .section-2-content {
+    text-align: right;
+    font-size: 25px;
+    color: saddlebrown
+}
+.sections .section-2 .section-2-content p {
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+.sections .section-2 .section-2-content .button2 {
+    width: 300px;
+    text-align: center;
+}
+.sections .section-2 .section-2-content .button2  a {
+    text-decoration: none;
+    color: white ;
+    border-style: solid;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgb(165, 91, 37);
+}
+.sections .section-2 .section-2-content .button2 :hover{
+    border-style: solid ;
+    border-color: rgb(82, 36, 3);
+    color: rgb(82, 36 ,3);
+    background-color: white;
+}
+
+.sections .section-3 {
+    float: right;
+    width: 35%;
+    margin-left: 100px;
+    margin-right: 50px;
+    margin-bottom: 30px;
+    border-style: ridge;
+    height: 230px;
+    width: 500px;
+    background-color: burlywood;
+}
+.sections .section-3 .section-3-head {
+    font-size: 25px;
+    text-align: right;
+    padding-bottom: 20px;
+    color: saddlebrown;
+}
+.sections .section-3 .section-3-content {
+    text-align: right;
+    font-size: 25px;
+    color: saddlebrown
+}
+ .sections .section-3 .section-3-content p {
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+.sections .section-3 .section-3-content .button3 {
+    height: 50px;
+    width: 300px;
+    text-align: center;
+    font-size: 23px;
+}
+.sections .section-3 .section-3-content .button3  a {
+    text-decoration: none;
+    color: white ;
+    border-style: solid;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgb(165, 91, 37);
+}
+.sections .section-3 .section-3-content .button3 :hover{
+    border-style: solid ;
+    border-color: rgb(82, 36, 3);
+    color: rgb(82, 36 ,3);
+    background-color: white;
+}
+.sections .section-4 {
+    float: right;
+    width: 35%;
+    margin-bottom: 30px;
+    border-style: ridge;
+    height: 230px;
+    width: 500px;
+    background-color: burlywood;
+
+}
+.sections .section-4 .section-4-head {
+    font-size: 25px;
+    text-align: right;
+    padding-bottom: 10px;
+    color: saddlebrown;
+}
+ .sections .section-4 .section-4-content {
+    text-align: right;
+    font-size: 25px;
+    color: saddlebrown; 
+}
+.sections .section-4 .section-4-content p {
+    padding-top: 10px;
+    padding-bottom: 30px; 
+}
+.sections .section-4 .section-4-content .button4 {
+    height: 50px;
+    width: 300px;
+    text-align: center;
+}
+.sections .section-4 .section-4-content .button4  a {
+    text-decoration: none;
+    color: white ;
+    border-style: solid;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgb(165, 91, 37);
+}
+.sections .section-4 .section-4-content .button4 :hover{
+    border-style: solid ;
+    border-color: rgb(82, 36, 3);
+    color: rgb(82, 36 ,3);
+    background-color: white;
+}
+.sections .section-5 {
+    float: right;
+    width: 35%;
+    margin-left: 100px;
+    margin-right: 50px;
+    margin-bottom: 30px;
+    border-style: ridge;
+    height: 230px;
+    width: 500px;
+    background-color: burlywood;
+ }
+.sections .section-5 .section-5-head {
+    font-size: 25px;
+    text-align: right;
+    padding-bottom: 20px;
+    color: saddlebrown;
+}
+.sections .section-5 .section-5-content {
+    text-align: right;
+    font-size: 25px;
+    color: saddlebrown
+}
+.sections .section-5 .section-5-content p {
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+ .sections .section-5 .section-5-content .button5 {
+    height: 50px;
+    width: 320px;
+    text-align: center;
+}
+.sections .section-5 .section-5-content .button5  a {
+    text-decoration: none;
+    color: white ;
+    border-style: solid;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgb(165, 91, 37);
+}
+.sections .section-5 .section-5-content .button5 :hover{
+    border-style: solid ;
+    border-color: rgb(82, 36, 3);
+    color: rgb(82, 36 ,3);
+    background-color: white;
+}
+.sections .section-6 {
+    float: right;
+    width: 35%;
+    margin-bottom: 30px;
+    border-style: ridge;
+    height: 230px;
+    width: 500px;
+    background-color: burlywood;
+}
+.sections .section-6 .section-6-head {
+    font-size: 25px;
+    text-align: right;
+    padding-bottom: 20px;
+    color: saddlebrown;
+}
+ .sections .section-6 .section-6-content {
+    text-align: right;
+    font-size: 25px;
+    color: saddlebrown
+}
+.sections .section-6 .section-6-content p {
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+.sections .section-6 .section-6-content .button6 {
+    height: 50px;
+    width: 300px;
+    text-align: center;
+}
+.sections .section-6 .section-6-content .button6  a {
+    text-decoration: none;
+    color: white ;
+    border-style: solid;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgb(165, 91, 37);
+}
+.sections .section-6 .section-6-content .button6 :hover{
+    border-style: solid ;
+    border-color: rgb(82, 36, 3);
+    color: rgb(82, 36 ,3);
+    background-color: white;
+}
+.sections .section-7 {
+    padding-bottom: 30px;
+    float: right;
+    margin-right: 300px;
+    border-style: ridge;
+    background-color: burlywood;
+}
+.sections .section-7 .section-7-head {
+    font-size: 25px;
+    text-align: right;
+    padding-bottom: 20px;
+    color: saddlebrown;
+}
+ .sections .section-7 .section-7-content {
+    text-align: right;
+    font-size: 23px;
+    color: saddlebrown
+}
+.sections .section-7 .section-7-content p {
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+.sections .section-7 .section-7-content .button7 {
+    height: 50px;
+    width: 300px;
+    text-align: center;
+}
+.sections .section-7 .section-7-content .button7  a {
+    text-decoration: none;
+    color: white ;
+    border-style: solid;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgb(165, 91, 37);
+}
+.sections .section-7 .section-7-content .button7 :hover{
+    border-style: solid ;
+    border-color: rgb(82, 36, 3);
+    color: rgb(82, 36 ,3);
+    background-color: white;
+}
+
+.delivery {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: rgb(241, 237, 233);
+}
+.delivery .delivery-head {
+    font-size: 50px;
+    text-align: center;
+    padding-bottom: 50px;
+    color: saddlebrown;
+}
+.delivery .delivery-content {
+    float: right;
+    width:50%;
+    text-align: right;
+    font-size: 30px;
+    color: saddlebrown
+}
+.delivery .delivery-content h3 {
+    padding-bottom: 20px;
+    padding-top: 30px;
+}
+.delivery .delivery-img {
+    float: right;
+    width: 50%;
+}
+.delivery .delivery-img img {
+    width:100%;
+}
+
+.pay {
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+.pay .pay-head {
+    font-size: 50px;
+    text-align: center;
+    padding-bottom: 50px;
+    color: saddlebrown;
+}
+.pay .pay-content {
+    float: right;
+    width:50%;
+    text-align: right;
+    font-size: 30px;
+    color: saddlebrown;
+    line-height: 50px;
+}
+.pay .pay-content h3 {
+    padding-bottom: 20px;
+    padding-top: 30px;
+}
+.pay .pay-img {
+    float: right;
+    width: 50%;
+}
+.pay .pay-img img {            
+    width:100%;
+}
+
+.end {
+    text-align: center;
+    color: burlywood;
+    background-image: url(../img/ererer.jpg);
+    font-size: 30px;
+    padding-top: 50px;
+    border-style: double;
+    padding-top: 40px;
+}
+.end  .valuation input[type=text]{
+    height: 100px;
+    width: 500px;
+    font-size: 35px;
+    text-align: center;
+    background-color: burlywood;
+    color: rgb(56, 25, 3);
+}
+.end .valuation input[type=submit] {
+    height: 40px;
+    width: 150px;
+    font-size: 25px;
+    margin-top: 30px;
+    background-color: burlywood;
+    color: rgb(56, 25, 3);
+}
+.end .social ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.end .social ul li a {
+    color: burlywood;
+}
+.end .social li :hover {
+    color: rgb(56, 25, 3);
+    font-size: 50px;
+}
+
+
+@media screen and (max-width: 980px) { 
+    
+    body {
+        font-size: 30px;
+    }
+    
+    .who {
+       background-color: white;
+   }
+    .who .who-content {
+        float: none;
+        width: 100%;
+        font-size: 20px;
+        text-align: center;
+        background-color: white;
+    }
+    .who .who-img {
+        float: none;
+        width: 100%;
+    }
+    .sections .section-1 {
+        float: none;
+        width: 90%;
+        font-size: 20px;
+        overflow: hidden;
+        text-align: center;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .sections .section-2 {
+        float: none;
+        width: 90%;
+        font-size: 20px;
+        overflow: hidden;
+        text-align: center;
+    }
+    .sections .section-3 {
+        float: none;
+        width: 90%;
+        font-size: 20px;
+        overflow: hidden;
+        text-align: center;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .sections .section-4 {
+        float: none;
+        width: 90%;
+        font-size: 20px;
+        overflow: hidden;
+        text-align: center;
+    }
+    .sections .section-5 {
+        float: none;
+        width: 90%;
+        font-size: 20px;
+        overflow: hidden;
+        text-align: center;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .sections .section-6 {
+        float: none;
+        width: 90%;
+        font-size: 20px;
+        overflow: hidden;
+        text-align: center;
+        margin-right: 200px;
+    }
+    .sections .section-7 {
+        float: none;
+        width: 90%;
+        font-size: 50px;
+        overflow: hidden;
+        text-align: center;
+        height: 250px;
+        margin-right: 0px;
+    }
+    .delivery {
+        background-color: white;
+    }
+    .delivery .delivery-content {
+        float: none;
+        width: 100%;
+        font-size: 20px;
+        overflow: hidden;
+        text-align: center;
+        background-color: white;
+    }
+    .delivery .delivery-img {
+        float: none;
+        width: 100%;
+
+    }
+
+    .pay {
+        background-color: white;
+    }
+    .pay .pay-content {
+        float: none;
+        width: 100%;
+        font-size: 20px;
+        overflow: hidden;
+        text-align: center;
+        background-color: white;
+    }
+    .pay .pay-img {
+        float: none;
+        width: 100%;
+
+    }
+  }
+
+

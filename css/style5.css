@@ -1,0 +1,416 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Markazi Text', serif;
+}
+
+
+.clr {
+    clear: both;
+}
+
+.container {
+    width: 1200px;
+    margin: auto;
+}
+
+.header .position {
+    position: fixed;
+    top: auto;
+    right: auto;
+    height:80px;
+    width: auto;
+    margin-bottom: 100px;
+    background-color: white;
+}
+.header .position .logo {
+    float: right;
+    width:20%;
+    padding-left: 770px;
+    
+}
+.header .position .logo img {
+    height:80px;
+    width: 300px;
+}
+.header.position .nav {
+    float: left;
+    width: 80%;
+    padding-right: 100px;
+}
+.header .position .nav li :hover {
+    color: sandybrown;
+    border-style: groove;
+    border-color: sandybrown;
+}
+.header .position .nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 15px;
+    margin-top: 30px;
+    font-size:18px;
+}
+.header .position .nav ul li a {
+    text-decoration: none;
+    color: rgb(88, 39, 3);
+}
+
+
+   .name{
+padding-top: 100px;
+    
+   
+}
+.name h2{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    
+    background-color:  rgb(216, 117, 51);
+    width: 100%;
+}
+
+.part1{
+    text-align: center;
+    padding-left:50px;
+    margin-top: 100px;
+    
+}
+.part1 .book1{
+    float: left;
+    width: 50%;
+
+   
+    
+}
+.part1 .book1 img{
+width: 200px;
+height: 300px;
+
+}
+.part1 .book2 img{
+    width: 200px;
+    height: 300px;
+}    
+.part1 .book1 h3{
+    color: brown;
+    font-size: 20px;
+   
+  
+}
+.part1 .book1 p.car {
+    height: 40px;
+    width: 200px;
+    background-color: rgb(216, 117,51);
+    color: white;
+    text-align: center;
+    margin-left: 220px;
+    padding-top: 10px;
+}
+.part1 .book1 i {
+    padding-right: 70px;
+}
+ .part1 .book1 .car:hover {
+    background-color: white;
+    color: rgb(216, 117, 51);
+    border: double;
+  
+}
+
+.part1 .book2 h3{
+    color: brown;
+
+}
+
+
+ .part1 .book2 p.car {
+    height: 40px;
+    width: 200px;
+    background-color: rgb(216, 117,51);
+    color: white;
+    text-align: center;
+   padding: 10px 10px 20px 20px;
+   margin: 5px 5px 100px 877px;
+
+}
+.part1 .book2 i {
+    padding-right: 70px;
+}
+ .part1 .book2 .car:hover {
+   
+    background-color: white;
+    color: rgb(216, 117, 51);
+    border:double ;
+  
+}
+
+
+.part2{
+    text-align: center;
+    padding-left:50px;
+    margin-top: 100px;
+}
+.part2 .book3{
+    float: left;
+    width: 50%;
+    
+   
+    
+}
+.part2 .book3 img{
+width: 200px;
+height: 300px;
+
+}
+.part2 .book4 img{
+    width: 200px;
+    height: 300px;
+    
+    }
+.part2 .book3 h3{
+    color: brown;
+    font-size: 20px;
+  
+}
+
+.part2 .book3 p.car {
+    height: 40px;
+    width: 200px;
+    background-color: rgb(216, 117,51);
+    color: white;
+    text-align: center;
+    margin-left: 220px;
+    padding-top: 10px;
+    
+}
+.part2 .book3 .car:hover{
+    background-color: cornsilk;
+    border:double ;
+    color: brown;
+
+}
+.part2 .book4 h3{
+    color: brown;
+
+}
+
+
+.part2 .book4 p.car {
+    height: 40px;
+    width: 200px;
+    background-color: rgb(216, 117,51);
+    color: white;
+    text-align: center;
+   padding: 10px 10px 20px 20px;
+   margin: 5px 5px 100px 845px;
+}
+.part2 .book4 .car:hover{
+    background-color: cornsilk;
+    border: double;
+    color: brown;
+
+}
+
+.part3{
+    text-align: center;
+    padding-left:50px;
+    margin-top: 100px;
+}
+.part3 .book5{
+    float: left;
+    width: 50%;
+    
+   
+    
+}
+.part3 .book5 img{
+width: 200px;
+height: 300px;
+
+}
+.part3 .book6 img{
+    width: 200px;
+    height: 300px;
+    
+    }
+.part3 .book5 h3{
+    color: brown;
+    font-size: 20px;
+  
+}
+
+.part3 .book5 p.car{
+    height: 40px;
+    width: 200px;
+    background-color: rgb(216, 117,51);
+    color: white;
+    text-align: center;
+    margin-left: 215px;
+    padding-top: 10px;
+}
+ .part3 .book5 .car:hover{
+    background-color: cornsilk;
+    border: double;
+    color: brown;
+
+}
+.part3 .book6 h3{
+    color: brown;
+
+}
+
+.part3 .book6 p.car {
+    height: 40px;
+    width: 200px;
+    background-color: rgb(216, 117,51);
+    color: white;
+    text-align: center;
+   padding: 10px 10px 20px 20px;
+   margin: 5px 5px 100px 845px;
+
+}
+.part3 .book6 .car:hover{
+    background-color: cornsilk;
+    border: 2px ;
+    color: brown;
+
+}
+
+.end {
+    text-align: center;
+    color: burlywood;
+    background-image: url(../img/ererer.jpg);
+    font-size: 30px;
+    padding-top: 50px;
+    border-style: double;
+    padding-top: 40px;
+    margin-top: 50px;
+}
+.end  .valuation input[type=text]{
+    height: 100px;
+    width: 500px;
+    font-size: 35px;
+    text-align: center;
+    background-color: burlywood;
+    color: rgb(56, 25, 3);
+}
+.end .valuation input[type=submit] {
+    height: 40px;
+    width: 150px;
+    font-size: 25px;
+    margin-top: 30px;
+    background-color: burlywood;
+    color: rgb(56, 25, 3);
+}
+.end .social ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.end .social ul li a {
+    color: burlywood;
+}
+.end .social li :hover {
+    color: rgb(56, 25, 3);
+    font-size: 50px;
+}
+
+
+@media screen and (max-width: 600px) {
+    
+    body {
+        font-size: 30px;
+    }
+    
+    .part1 .book1 {
+        float: none;
+        width: 100%;
+        padding-bottom: 40px;
+    }
+    .part1 .book1 img {
+        width: 40%;
+        height: 600px;
+    }
+    .part1 .book1 p.car {
+        width: 400px;
+
+    }
+    
+    .part1 .book2 {
+        float: none;
+        width: 100%;
+        padding-bottom: 40px;
+    }
+    .part1 .book2 img {
+        width: 40%;
+        height: 600px;
+    }
+    .part1 .book2 p.car {
+        width: 400px;
+        margin-left: 250px;
+    }
+
+        
+    .part2 .book3 {
+        float: none;
+        width: 100%;
+        padding-bottom: 40px;
+    }
+    .part2 .book3 img {
+        width: 40%;
+        height: 600px;
+    }
+    .part2 .book3 p.car {
+        width: 400px;
+
+    }
+    
+    .part2 .book4 {
+        float: none;
+        width: 100%;
+        padding-bottom: 40px;
+    }
+    .part2 .book4 img {
+        width: 40%;
+        height: 600px;
+    }
+    .part2 .book4 p.car {
+        width: 400px;
+        margin-left: 250px;
+    }
+            
+    .part3 .book5 {
+        float: none;
+        width: 100%;
+        padding-bottom: 40px;
+    }
+    .part3 .book5 img {
+        width: 40%;
+        height: 600px;
+    }
+    .part3 .book5 p.car {
+        width: 400px;
+
+    }
+    
+    .part3 .book6 {
+        float: none;
+        width: 100%;
+        padding-bottom: 40px;
+    }
+    .part3 .book6 img {
+        width: 40%;
+        height: 600px;
+    }
+    .part3 .book6 p.car {
+        width: 400px;
+        margin-left: 250px;
+    }
+    }
+
+
+
+  

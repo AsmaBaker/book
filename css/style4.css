@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Markazi Text', serif;
+}
+
+
+.clr {
+    clear: both;
+}
+
+.container {
+    width: 1200px;
+    margin: auto;
+}
+
+.header .position {
+    position: fixed;
+    top: auto;
+    right: auto;
+    height:80px;
+    width: auto;
+    margin-bottom: 100px;
+    background-color: white;
+}
+.header .position .logo {
+    float: right;
+    width:20%;
+    padding-left: 770px;
+    
+}
+.header .position .logo img {
+    height:80px;
+    width: 300px;
+}
+.header.position .nav {
+    float: left;
+    width: 80%;
+    padding-right: 100px;
+}
+.header .position .nav li :hover {
+    color: sandybrown;
+    border-style: groove;
+    border-color: sandybrown;
+}
+.header .position .nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 15px;
+    margin-top: 30px;
+    font-size:18px;
+}
+.header .position .nav ul li a {
+    text-decoration: none;
+    color: rgb(88, 39, 3);
+}
+
+
+
+.title h1{
+    padding-top: 100px;
+    text-align: center;
+    background-color: rgb(216, 117, 51);
+    color: white;
+    padding-bottom: 10px;
+}
+
+
+.books .book{
+    margin-top: 100px;
+    margin-left: 150px;
+    float: left;
+    width:30%;
+    text-align: center;
+    color: brown;
+}
+
+
+
+
+.books .book img{
+    width: 245px;
+    height: 360px;
+}
+
+
+
+
+.books .book p.car {
+    height: 40px;
+    width: 230px;
+    background-color: rgb(216, 117,51);
+    color: white;
+    text-align: center;
+    margin-left: 60px;
+    padding-top: 8px;
+    
+
+}
+.books .book i {
+    padding-right: 70px;
+}
+.books .book .butt :hover {
+    background-color: white;
+    color: rgb(216, 117, 51);
+}
+
+
+
+.end {
+    text-align: center;
+    color: burlywood;
+    background-image: url(../img/ererer.jpg);
+    font-size: 30px;
+    padding-top: 50px;
+    border-style: double;
+    padding-top: 40px;
+    margin-top: 50px;
+}
+.end  .valuation input[type=text]{
+    height: 100px;
+    width: 500px;
+    font-size: 35px;
+    text-align: center;
+    background-color: burlywood;
+    color: rgb(56, 25, 3);
+}
+.end .valuation input[type=submit] {
+    height: 40px;
+    width: 150px;
+    font-size: 25px;
+    margin-top: 30px;
+    background-color: burlywood;
+    color: rgb(56, 25, 3);
+}
+.end .social ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.end .social ul li a {
+    color: burlywood;
+}
+.end .social li :hover {
+    color: rgb(56, 25, 3);
+    font-size: 50px;
+}
+
+
+@media screen and (max-width: 600px) {
+    body {
+        font-size: 30px;
+    }
+
+    .books .book {
+        float: none;
+        width: 100%;
+        padding-right: 100px;
+    }
+    .books .book img {
+        width: 40%;
+        height: 600px;
+    }
+    .books .book p.car {
+        margin-left: 490px;
+    }
+}
+
+

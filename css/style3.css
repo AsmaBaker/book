@@ -1,0 +1,353 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Markazi Text', serif;
+}
+
+.clr {
+    clear: both;
+}
+
+.container {
+    width: 1200px;
+    margin: auto;
+}
+
+.header .position {
+    position: fixed;
+    top: auto;
+    right: auto;
+    height:80px;
+    width: auto;
+    margin-bottom: 100px;
+    background-color: white;
+}
+.header .position .logo {
+    float: right;
+    width:20%;
+    padding-left: 790px;
+}
+.header .position .logo img {
+    height:80px;
+    width: 300px;
+}
+.header.position .nav {
+    float: left;
+    width: 80%;
+    padding-right: 100px;
+}
+.header .position .nav li :hover {
+    color: sandybrown;
+    border-style: groove;
+    border-color: sandybrown;
+}
+.header .position .nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 15px;
+    margin-top: 30px;
+    font-size:18px;
+}
+.header .position .nav ul li a {
+    text-decoration: none;
+    color: rgb(88, 39, 3);
+}
+.header .head {
+    background-image: url(../img/rrrr.jpg);
+    height: 100vh;
+    background-position: center center;
+    background-size: 100% 100%;
+}
+.header .head {
+    text-align: center;
+    padding-top: 150px;
+    font-size: 40px;
+    color: rgb(88, 39, 3);
+}
+.header .head P {
+    padding-top: 20PX;
+    padding-bottom: 20px;
+    font-size: 40px;
+}
+.header .head h1 {
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    font-size: 70px;
+}
+.header .head ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 20px;
+    padding-top: 160px;
+}
+.header .head ul li a {
+    color: burlywood;
+}
+.header .head li :hover {
+    color: brown;
+    font-size: 50px;
+}
+
+ .headar-2{
+    background-color: rgb(216, 117, 51);
+    padding-top: 90px;
+    text-align: center;
+   
+}
+.container {
+    width: 1200px;
+    margin: auto;
+}
+
+.headar-2 h1{
+    color: white;
+    font-size: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+.conten {
+    margin-top: 100px;
+    text-align: center;
+    overflow: hidden;
+
+}
+.conten .c-a{
+    float: left;
+    width: 50%;
+}
+.conten .c-b{
+    float: left;
+    width: 50%;
+}
+.conten img{
+    width: 50%;
+}
+.conten h2{
+    font-size: 30px;
+    color:brown ;
+}
+.conten-2{
+margin-top: 100px;
+text-align: center;
+overflow: hidden;
+}
+.conten-2 .book-1{
+    float: left;
+    width: 50%;
+}
+.conten-2 .book-2{
+    float: left;
+    width: 50%;
+}
+.conten-2 img{
+    width: 50%;
+}
+.conten-2 h2{
+     font-size: 30px;
+    color:brown ;
+}
+.conten-2  .book-1 .test{
+    color: rgb(255, 255, 255);
+    background-color:rgb(216, 117, 51) ;
+    border:1px solid;
+    padding: 10px; 
+    margin-left: 140px;
+    margin-right: 140px;
+    font-size: 22px
+    
+}
+.conten-2 .book-1 .test:hover{
+    background-color: white;
+    color: brown;
+    border: 5px double;
+}
+.conten-2 .book-1 .test i{
+    margin-right: 80px;
+    font-size: 30px;
+  }
+.conten-2 .book-2 .test{
+    color: rgb(255, 255, 255);
+    background-color:rgb(216, 117, 51) ;
+    border:1px solid ;
+    padding: 10px; 
+    margin-left: 140px;
+    margin-right: 140px;
+    font-size: 25px
+}.conten-2 .book-2 .test:hover{
+    background-color: white;
+    color: brown;
+    border: 5px double ;
+}
+.conten-2 .book-2 .test i{
+  margin-right: 80px;
+  font-size: 30px;
+}
+.conten .test{
+    color: rgb(255, 255, 255);
+    background-color:rgb(216, 117, 51) ;
+    border:1px solid;
+    padding: 10px; 
+    margin-left: 140px;
+    margin-right: 140px;
+    font-size: 25px;
+    
+}
+.conten .test:hover{
+    background-color: white;
+    color: brown;
+    border: 5px double;
+}
+.conten .test i{
+
+      margin-right: 80px;
+     font-size: 30px;
+     
+
+}
+.conten-3{
+    margin-top: 100px;
+    text-align: center;
+    overflow: hidden;
+}
+.conten-3 .book-3{
+    float: left;
+    width: 50%;
+}
+.conten-3 .book-4{
+    float: left;
+    width: 50%;
+}
+.conten-3 img{
+    width: 50%;
+}
+.conten-3 h2{
+     font-size: 30px;
+    color:brown ;
+}
+.conten-3 .test{
+    color: rgb(255, 255, 255);
+    background-color:rgb(216, 117, 51) ;
+    border:1px solid;
+    padding: 10px; 
+    margin-left: 140px;
+    margin-right: 140px;
+    font-size: 25px;
+    
+}
+.conten-3 .test:hover{
+    background-color: white;
+    color: brown;
+    border: 5px double;
+}
+.conten-3 .test i{
+
+      margin-right: 80px;
+     font-size: 30px;
+     
+
+}
+.end{
+    margin-top: 100px;
+    text-align: center;
+    color: burlywood;
+    background-image: url(../img/ererer.jpg);
+    font-size: 30px;
+    padding-top: 50px;
+    border-style:double ;
+    padding-top: 40px;
+}
+.end .valuation input[type=text]{
+    margin-top: 20px;
+    height: 100px;
+    width: 500px;
+    font-size: 35px;
+    text-align: center;
+    background-color: burlywood;
+    color: rgb(56,25,3);
+}
+.end .valuation input[type=submit] {
+    height: 40px;
+    width: 150px;
+    font-size: 25px;
+    margin-top: 30px;
+    background-color: burlywood;
+    color: rgb(56, 25, 3);
+}
+.end .social ul li {
+    list-style: none;
+    display:inline-block ;
+    margin-left: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.end .social ul li a{
+    color: burlywood;
+}
+.end .social li:hover{
+    color: rgb(56,25,3);
+    font-size: 50px;
+}
+
+
+@media screen and (max-width: 600px) {
+   
+    body {
+        font-size: 30px;
+    }
+
+    .conten .c-a {
+        float: none;
+        width: 100%;
+    }
+    .conten .c-a img {
+        width: 40%;
+    }
+
+    .conten .c-b {
+        float: none;
+        width: 100%;
+        margin-top: 30px;
+    }
+    .conten .c-b img {
+        width: 40%;
+    }
+
+    .conten-2 .book-1 {
+        float: none;
+        width: 100%;
+    }
+    .conten-2 .book-1 img {
+        width: 40%;
+    }
+
+    .conten-2 .book-2 {
+        float: none;
+        width: 100%;
+        margin-top: 30px;
+    }
+    .conten-2 .book-2 img {
+        width: 40%;
+    }
+
+    .conten-3 .book-3 {
+        float: none;
+        width: 100%;
+    }
+    .conten-3 .book-3 img {
+        width: 40%;
+    }
+
+    .conten-3 .book-4 {
+        float: none;
+        width: 100%;
+        margin-top: 30px;
+    }
+    .conten-3 .book-4 img {
+        width: 40%;
+    }
+  }
+
